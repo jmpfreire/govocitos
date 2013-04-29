@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<glade-interface>
+  <!-- interface-requires gtk+ 2.16 -->
+  <!-- interface-naming-policy project-wide -->
+  <widget class="GtkDialog" id="SelecDialog">
+    <property name="width_request">300</property>
+    <property name="border_width">5</property>
+    <property name="title" translatable="yes">Oocyte edge detection</property>
+    <property name="type_hint">normal</property>
+    <property name="deletable">False</property>
+    <property name="has_separator">False</property>
+    <child internal-child="vbox">
+      <widget class="GtkVBox" id="dialog-vbox1">
+        <property name="visible">True</property>
+        <property name="spacing">2</property>
+        <child>
+          <widget class="GtkVBox" id="vbox1">
+            <property name="visible">True</property>
+            <property name="border_width">6</property>
+            <property name="spacing">6</property>
+            <child>
+              <widget class="GtkRadioButton" id="seleDialogCells">
+                <property name="label" translatable="yes">Delete all the cells</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">False</property>
+                <property name="active">True</property>
+                <property name="draw_indicator">True</property>
+              </widget>
+              <packing>
+                <property name="expand">False</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkRadioButton" id="seleDialogMD">
+                <property name="label" translatable="yes">Modify/Delete some of the cells</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">False</property>
+                <property name="active">True</property>
+                <property name="draw_indicator">True</property>
+                <property name="group">seleDialogCells</property>
+              </widget>
+              <packing>
+                <property name="expand">False</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkRadioButton" id="finalizarDetec">
+                <property name="label" translatable="yes">Finalize</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">False</property>
+                <property name="active">True</property>
+                <property name="draw_indicator">True</property>
+                <property name="group">seleDialogCells</property>
+              </widget>
+              <packing>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child internal-child="action_area">
+          <widget class="GtkHButtonBox" id="dialog-action_area1">
+            <property name="visible">True</property>
+            <property name="layout_style">end</property>
+            <child>
+              <placeholder/>
+            </child>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="pack_type">end</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

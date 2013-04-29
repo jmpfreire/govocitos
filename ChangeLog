@@ -1,0 +1,2166 @@
+2012-07-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	Repair bug, when the user calculate the points of the grid the system made it correctly.
+	Repair bug, when the user use automatic clasification, after the user can selected the cells and see the class or the state.
+
+2012-07-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+
+2012-07-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Glade/Preferencias.glade:
+	* src/Modulos/ConexionBD.cpp:
+	Repair bug, when do not specify clases or states the system can not calculate the fecundity.
+	No repit the individual at calculation fecundity panel.
+
+2012-06-19  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Modulos/CalculoMorfologico.cpp:
+	Repair bug at stadistic panel.
+
+2012-06-19  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/AcercaDe.glade:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Modulos/CalculoEstadistico.cpp:
+	Repair bug, when the user select show cell with a state the system only show the cells
+	whith this state.
+	Add units to size grid.
+
+2012-06-19  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/DibujadoCelula.cpp:
+	Reapir bug. When the bounding box of a big cell or a big not image region ar near to another cells
+	the system can selected the small cells.
+
+2012-05-30  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Estructuras/ImageCells.h:
+	When the user upload the xml files the system don´t crash the next times.
+
+2012-05-30  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	* src/Modulos/SistemaDibujado.cpp:
+	Now the user can´t paint out of the image.
+
+2012-04-19 José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/AcercaDe.glade:
+	Change version.
+
+2012-04-18  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/SftpConexion.cpp:
+	Repair bug at sftp system, when the system can not upload files the system crash.
+
+2012-04-18  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Makefile.am:
+	Change to 32bit version.
+
+2012-03-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/AcercaDe.glade:
+	Change version to 2.03271.
+
+2012-03-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	Repair bug at csv export system.
+
+2012-03-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	Repair bugs.
+
+2012-03-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	If the user upload a file to bd the user system set cambio = false;
+
+2012-03-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ResultFecundidad.h:
+	Repair bug, if the user change the preferences the fecundity will be recalculate.
+	Repair bug, when the user save the fecundity data at the bd they will be save correctly.
+	Reapir bug, if the user selecte less states that normal the fecundity panel shows correctly.
+
+2012-03-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	Repair bug, the system will not run correctly enable/disable the automatic clasification.
+
+2012-03-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	Repair bug, when the system is autodeteting the edges the user can´t clasificate the cells.
+
+2012-03-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/DialogoIndividuo.cpp:
+	* src/Interfaz/DialogoIndividuo.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ResultFecundidad.cpp:
+	Repair bugs at treview system, mysql sequence and make reordeable the individuals at the selected panel.
+
+2012-03-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/SftpConexion.cpp:
+	* src/Modulos/SftpConexion.h:
+	Add progress dialog to upload the files.
+
+2012-03-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Makefile.am:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	Optimized sql data sentences of the system.
+
+2012-03-24  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/ListadoIndividuo.cpp:
+	* src/Estructuras/ListadoIndividuo.h:
+	* src/Makefile.am:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	Add new system to download the information of the individual stored at the data base.
+
+2012-03-23  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/SftpConexion.cpp:
+	Optimize code to upload files.
+
+2012-03-23  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/SftpConexion.cpp:
+	* src/Modulos/SftpConexion.h:
+	Add new system to upload 1 or more files to the server with the same socket.
+
+2012-03-22  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Estructuras/ImageCells.h:
+	* src/Modulos/ConexionBD.cpp:
+	Add new system to save the test xml.
+
+2012-03-08   José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Utiles.cpp:
+	Change config directory of windows.
+
+2012-03-08  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Estructuras/ImageCells.h:
+	Add new system to save xml auxiliar path.
+
+2012-03-08  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	Reapir bug, xml1 rewrite.
+
+2012-03-08  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	Reapir bug at automatic redimension system to calculate the fecundity.
+
+2012-02-15  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Dialogos.cpp:
+	* src/Dialogos.h:
+	* src/Estructuras/ResultadosImagen.cpp:
+	* src/Estructuras/ResultadosImagen.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ResultFecundidad.cpp:
+	* src/Modulos/ResultFecundidad.h:
+	New system to calculate states not defined previously.
+
+2012-02-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Config/ConfigGovocitos.cpp:
+	* src/Config/OpcionesPref.cpp:
+	* src/Config/OpcionesPref.h:
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/ClasificaCelula.cpp:
+	* src/Estructuras/ClasificaCelula.h:
+	* src/Fichero.cpp:
+	* src/Fichero.h:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/XmlCache.cpp:
+	* src/Modulos/XmlCache.h:
+	* src/Modulos/XmlPreferencias.cpp:
+	* src/Modulos/XmlPreferencias.h:
+	Add new preferences system finalized.
+
+2012-02-08  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Config/ConfigGovocitos.cpp:
+	* src/Config/OpcionesPref.cpp:
+	* src/Config/OpcionesPref.h:
+	* src/Estructuras/ListadoCache.cpp:
+	* src/Fichero.cpp:
+	* src/Fichero.h:
+	* src/Interfaz/Preferencias.cpp:
+	* src/Interfaz/Preferencias.h:
+	* src/Modulos/XmlPreferencias.cpp:
+	* src/Modulos/XmlPreferencias.h:
+	* src/Utiles.cpp:
+	* src/Utiles.h:
+	Add new system to save preferences.
+
+2012-02-01  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	Repair bug.
+
+2012-01-31  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/AcercaDe.glade:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	Add new system to export the data obtained with the weibel method to a csv file.
+
+2012-01-23   José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	Reapir bugs at edition, grid panel.
+
+2012-01-13  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/XmlConectividad.cpp:
+	* src/Conectividad/XmlWebDatos.cpp:
+	* src/Conectividad/XmlWebFecundidad.cpp:
+	* src/Conectividad/XmlWebImagenes.cpp:
+	* src/Conectividad/XmlWebIndividuo.cpp:
+	* src/CoreGovocitos.cpp:
+	Add doxygen comments.
+
+2012-01-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/CalculoMorfologico.cpp:
+	Repair bug. the roudness was no calculate correctly.
+
+2012-01-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Conectividad/XmlConectividad.cpp:
+	* src/Conectividad/XmlWebDatos.cpp:
+	* src/Conectividad/XmlWebFecundidad.cpp:
+	* src/Conectividad/XmlWebImagenes.cpp:
+	* src/Conectividad/XmlWebIndividuo.cpp:
+	* src/Config/OpcionesPref.cpp:
+	* src/Config/OpcionesRej.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/DataImage.cpp:
+	* src/Estructuras/ListadoImagenes.cpp:
+	* src/Estructuras/ListadoIndividuo.cpp:
+	* src/Estructuras/ResultadosImagen.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/MenuPopup.cpp:
+	* src/Interfaz/MenuSeleccion.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/Preferencias.cpp:
+	* src/Interfaz/RejillaPersonalizada.cpp:
+	* src/Modulos/CalculoEstadistico.cpp:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoMorfologico.cpp:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/Rejilla.cpp:
+	* src/Modulos/ResultFecundidad.cpp:
+	* src/Modulos/ScanFillLine.cpp:
+	* src/Modulos/SftpConexion.cpp:
+	* src/Modulos/SistemaDibujado.cpp:
+	* src/Modulos/XmlParse.cpp:
+	* src/Utiles.cpp:
+	* src/main.cpp:
+	Add comments to doxygen.
+
+2012-01-04  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Modulos/CalculoMorfologico.cpp:
+	Repair bug, when the user draw point and join it to finalize the cells didn´t create properly.
+
+2011-12-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	Comment option save mask.
+
+2011-12-15  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/Config/OpcionesPref.cpp:
+	* src/Config/OpcionesPref.h:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Dialogos.cpp:
+	* src/Dialogos.h:
+	* src/Estructuras/Celula.cpp:
+	* src/Estructuras/Celula.h:
+	* src/Estructuras/ClasificaCelula.cpp:
+	* src/Estructuras/ClasificaCelula.h:
+	* src/Estructuras/DataImage.cpp:
+	* src/Estructuras/DataImage.h:
+	* src/Estructuras/ListadoCache.cpp:
+	* src/Estructuras/ListadoCache.h:
+	* src/Estructuras/ListadoIndividuo.cpp:
+	* src/Estructuras/ListadoIndividuo.h:
+	* src/Fichero.cpp:
+	* src/Fichero.h:
+	* src/Interfaz/BarraEstado.cpp:
+	* src/Interfaz/BarraEstado.h:
+	* src/Interfaz/DialogoAGLocal.cpp:
+	* src/Interfaz/DialogoAGLocal.h:
+	* src/Interfaz/DialogoBarraProgres.cpp:
+	* src/Interfaz/DialogoBarraProgres.h:
+	* src/Interfaz/DialogoIndividuo.cpp:
+	* src/Interfaz/DialogoIndividuo.h:
+	* src/Interfaz/DialogoRemoto.cpp:
+	* src/Interfaz/DialogoRemoto.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/MenuBarraPrincipal.h:
+	* src/Interfaz/MenuPopup.cpp:
+	* src/Interfaz/MenuPopup.h:
+	* src/Interfaz/MenuSeleccion.cpp:
+	* src/Interfaz/MenuSeleccion.h:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/HttpsConexion.h:
+	* src/Modulos/ResultFecundidad.cpp:
+	* src/Modulos/ResultFecundidad.h:
+	* src/Utiles.cpp:
+	* src/Utiles.h:
+	Optimize code.
+	* src/Modulos/SftpConexion.cpp:
+	* src/Modulos/SftpConexion.h:
+	Repair bug, when the packet to send was more big than 32k the system crash,
+	now the system sends packets of 20kb.
+
+2011-12-14  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/Estructuras/DataImage.cpp:
+	Repair bug at autodetection system.
+
+2011-12-14  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	Add system to generate intermediate files of xml to study the new border system.
+
+2011-10-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/XmlWebDatos.h:
+	* src/Conectividad/XmlWebImagenes.cpp:
+	* src/Conectividad/XmlWebImagenes.h:
+	* src/Conectividad/XmlWebIndividuo.cpp:
+	* src/Conectividad/XmlWebIndividuo.h:
+	* src/Config/ConfigGovocitos.cpp:
+	* src/Config/OpcionesPref.h:
+	* src/Config/OpcionesRej.h:
+	* src/CoreGovocitos.h:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Estructuras/ListadoCache.h:
+	* src/Estructuras/NucleoCelula.h:
+	* src/Interfaz/DialogoBarraProgres.cpp:
+	* src/Interfaz/MenuBarraPrincipal.h:
+	* src/Interfaz/MenuPopup.h:
+	* src/Interfaz/MenuSeleccion.h:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Interfaz/PanelPropiedades.h:
+	* src/Interfaz/Preferencias.h:
+	* src/Interfaz/RejillaPersonalizada.cpp:
+	* src/Interfaz/RejillaPersonalizada.h:
+	* src/Makefile.am:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/Rejilla.h:
+	* src/Modulos/ScanFillLine.cpp:
+	* src/Modulos/SftpConexion.cpp:
+	* src/Modulos/SftpConexion.h:
+	* src/Modulos/XmlParse.cpp:
+	* src/Utiles.cpp:
+	Repair bugs.
+
+2011-10-19  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	Repair bug at export csv data and add function to export the mask of the image,
+	but it don´t work.
+
+2011-10-19  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Makefile.am:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/HttpsConexion.h:
+	If the system can´t download the selected file the system show a message error
+	and don´t crash under windows.
+
+2011-10-17  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Modulos/HttpsConexion.cpp:
+	Repair bug.
+
+2011-10-14  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PlotHistogram.cpp:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/ModulosGovocitos.cpp:
+	Repair bug at plot.
+
+2011-10-13  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Clasificador/Clasificador.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/ResultadosImagen.cpp:
+	* src/Estructuras/ResultadosImagen.h:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	* src/Modulos/CalculoEstadistico.cpp:
+	* src/Modulos/CalculoEstadistico.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	Add new system to delimited the non area image, and repair bug at sftp.
+
+2011-10-13  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Modulos/SftpConexion.cpp:
+	* src/Modulos/SftpConexion.h:
+	* src/Utiles.cpp:
+	* src/Utiles.h:
+	Add system to detect if all the images have the same calibration.
+
+2011-10-13  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Config/ConfigGovocitos.cpp:
+	* src/Config/OpcionesPref.cpp:
+	* src/Config/OpcionesPref.h:
+	* src/CoreGovocitos.cpp:
+	* src/Glade/Preferencias.glade:
+	* src/Interfaz/Preferencias.cpp:
+	* src/Interfaz/Preferencias.h:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/HttpsConexion.h:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	* src/Modulos/SftpConexion.cpp:
+	* src/Modulos/SftpConexion.h:
+	Repair bugs and add the config setup of preferences.
+
+2011-10-13  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DiametrosLupa.glade:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Makefile.am:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/SftpConexion.cpp:
+	Add system to calculate k value with whole diameters.
+
+2011-10-11  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	* src/Modulos/SftpConexion.cpp:
+	Add function to obtain correction factors of DB.
+
+2011-10-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Glade/PanelResultados.glade:
+	* src/Glade/Preferencias.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	* src/Modulos/SftpConexion.cpp:
+	Repair bugs.
+
+2011-10-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Modulos/SftpConexion.cpp:
+	When the distance of grid are 1 the system don´t use the weibel method to calculate.
+
+2011-10-07  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Modulos/Rejilla.cpp:
+	* src/Modulos/Rejilla.h:
+	Repair bugs now the system don´t replay the grids.
+
+2011-10-06  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Config/ConfigGovocitos.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	Add support to save the personalized grid in the data base.
+
+2011-10-06  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	* src/Modulos/ResultFecundidad.cpp:
+	* src/Modulos/ResultFecundidad.h:
+	* src/Utiles.cpp:
+	* src/Utiles.h:
+	Save data of fecundity in the data base.
+
+2011-10-05  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	* src/Modulos/SftpConexion.cpp:
+	* src/Modulos/SftpConexion.h:
+	* src/Modulos/libssh2_config.h:
+	Prepare system to upload files with sftp.
+
+2011-10-05  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Clasificador/Clasificador.cpp:
+	* src/Clasificador/svm.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Estructuras/ListadoCache.cpp:
+	* src/Estructuras/ListadoCache.h:
+	* src/Interfaz/DialogoIndividuo.cpp:
+	* src/Interfaz/DialogoRemoto.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/MenuSeleccion.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PlotHistogram.cpp:
+	* src/Interfaz/Preferencias.cpp:
+	* src/Interfaz/RejillaPersonalizada.cpp:
+	* src/Makefile.am:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoMorfologico.cpp:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/HttpsConexion.h:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ScanFillLine.cpp:
+	* src/Modulos/SftpConexion.cpp:
+	* src/Modulos/SftpConexion.h:
+	* src/Modulos/SistemaDibujado.cpp:
+	Repair bugs and add new system to connect via sftp.
+
+2011-09-30  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Modulos/ConexionBD.cpp:
+	Repair bugs.
+
+2011-09-29  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Glade/Preferencias.glade:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/CalculoMorfologico.cpp:
+	* src/Modulos/CalculoMorfologico.h:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	Add microns to system and repair bugs.
+
+2011-09-28  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Makefile.am:
+	Repair bug, when the user use the modify of the autodetection system after the
+	user can use other options at edition panel.
+
+2011-09-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/CoreGovocitos.cpp:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Modulos/ConexionBD.cpp:
+	Repair bugs to obtain the fecundity.
+
+2011-09-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Modulos/ConexionBD.cpp:
+	Repair bugs at database system and put on new data base system for images and xml.
+
+2011-09-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Makefile.am:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	* src/Modulos/SistemaDibujado.cpp:
+	Repair bug, when the user use the supervised autodetection system the point don´t 
+	disapear when make zoom.
+
+2011-09-23  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Makefile.am:
+	* src/Modulos/DesReHacer.cpp:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	* src/Modulos/ModulosGovocitos.cpp:
+	Repair bug at undo, when the user paint the first cell it didn´t works.
+
+2011-09-23  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Glade/SelecAccionDetec.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/MenuPopup.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	* src/Modulos/DesReHacer.cpp:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	* src/Modulos/ModulosGovocitos.cpp:
+	Repair bugs.
+
+2011-09-22  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	Change separator of csv file , to ;
+
+2011-09-19  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	Use old system to obtain the data.
+
+2011-09-19  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	Change menu open idividual to caculate fecundity.
+
+2011-09-13  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Modulos/ConexionBD.cpp:
+	Add open individuals from BD.
+
+2011-09-12  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Estructuras/DataImage.cpp:
+	* src/Estructuras/DataImage.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Makefile.am:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	Add new system to connect and obtain data of the DB.
+
+2011-08-17  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Glade/AcercaDe.glade:
+	* src/Modulos/HttpsConexion.cpp:
+	Repair bugs.
+
+2011-08-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/DataImage.cpp:
+	* src/Estructuras/DataImage.h:
+	* src/Estructuras/ListadoCache.cpp:
+	* src/Glade/SelecAccionDetec.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Modulos/HttpsConexion.cpp:
+	Repair code to obtains strings of image name.
+
+2011-07-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/CoreGovocitos.cpp:
+	* src/Glade/SelecAccionDetec.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Makefile.am:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/HttpsConexion.h:
+	Add new method to upload files to server, finalized new automatic detection system.
+
+2011-07-21  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	Finalize the new autodetection system.
+
+2011-07-20  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/CoreGovocitos.cpp:
+	* src/Glade/SelecAccionDetec.glade:
+	Change autodetection if the user select delete all the cells the system works correct.
+
+2011-07-19  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Glade/SelecAccionDetec.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Makefile.am:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	Change autodetection system is not finish.
+
+2011-07-14  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	Repair bug.
+
+2011-07-14  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/CoreGovocitos.cpp:
+	Add new condition to detect a fail in the image.
+
+2011-07-06  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/Bordes/image.h:
+	* src/CoreGovocitos.cpp:
+	Add new system to detect cells.
+
+2011-06-29  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	Add new dialog when the user launch the supervised system.
+
+2011-06-29  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	Add new system to launch the new detection supervised system.
+
+2011-06-28  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	Add new system to draw points to selected the autodetection cells.
+
+2011-06-24  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelFecundidad.cpp:
+	Change comment.
+
+2011-06-21  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	Add export data for fecundity.
+
+2011-06-20  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Dialogos.cpp:
+	* src/Dialogos.h:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	Add extract to csv for cells data.
+
+2011-06-17  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Config/OpcionesPref.cpp:
+	* src/Config/OpcionesPref.h:
+	* src/Config/OpcionesRej.cpp:
+	* src/Config/OpcionesRej.h:
+	* src/Estructuras/Celula.cpp:
+	* src/Estructuras/Celula.h:
+	* src/Estructuras/ClaseCelula.cpp:
+	* src/Estructuras/ClaseCelula.h:
+	* src/Estructuras/ClasificaCelula.cpp:
+	* src/Estructuras/ClasificaCelula.h:
+	* src/Estructuras/DataImage.cpp:
+	* src/Estructuras/DataImage.h:
+	* src/Estructuras/EstadoCelula.cpp:
+	* src/Estructuras/EstadoCelula.h:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Estructuras/ImageCells.h:
+	* src/Estructuras/ListadoCache.cpp:
+	* src/Estructuras/ListadoCache.h:
+	* src/Estructuras/ListadoCelulas.cpp:
+	* src/Estructuras/ListadoCelulas.h:
+	* src/Estructuras/ListadoImagenes.cpp:
+	* src/Estructuras/ListadoImagenes.h:
+	* src/Estructuras/ListadoIndividuo.cpp:
+	* src/Estructuras/ListadoIndividuo.h:
+	* src/Estructuras/NucleoCelula.cpp:
+	* src/Estructuras/NucleoCelula.h:
+	* src/Estructuras/ResultadosImagen.cpp:
+	* src/Estructuras/ResultadosImagen.h:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	* src/Modulos/ResultFecundidad.cpp:
+	* src/Modulos/ResultFecundidad.h:
+	Optimized code.
+
+2011-06-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Estructuras/ClaseCelula.cpp:
+	* src/Estructuras/ClaseCelula.h:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Modulos/CalculoEstadistico.cpp:
+	Optimized code.
+
+2011-06-07  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Estructuras/ImageCells.cpp:
+	* src/Estructuras/ImageCells.h:
+	* src/Fichero.cpp:
+	* src/Fichero.h:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/HttpsConexion.h:
+	Add coments to generate doxygen.
+
+2011-06-06  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/Dialogos.cpp:
+	* src/Dialogos.h:
+	* src/Estructuras/EstadoCelula.cpp:
+	* src/Estructuras/EstadoCelula.h:
+	* src/Interfaz/DialogoAGLocal.cpp:
+	* src/Interfaz/DialogoAGLocal.h:
+	* src/Interfaz/DialogoBarraProgres.cpp:
+	* src/Interfaz/DialogoBarraProgres.h:
+	* src/Interfaz/DialogoIndividuo.cpp:
+	* src/Interfaz/DialogoIndividuo.h:
+	* src/Interfaz/DialogoRemoto.cpp:
+	* src/Interfaz/DialogoRemoto.h:
+	* src/Modulos/DesReHacer.cpp:
+	* src/Modulos/DesReHacer.h:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	Add coments to generate doxygen.
+
+2011-06-01  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Clasificador/Clasificador.cpp:
+	* src/Clasificador/Clasificador.h:
+	* src/Config/ConfigGovocitos.cpp:
+	* src/Config/ConfigGovocitos.h:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Estructuras/Celula.cpp:
+	* src/Estructuras/Celula.h:
+	* src/Estructuras/ClaseCelula.cpp:
+	* src/Estructuras/ClaseCelula.h:
+	* src/Estructuras/ClasificaCelula.cpp:
+	* src/Estructuras/ClasificaCelula.h:
+	* src/Estructuras/DataImage.cpp:
+	* src/Estructuras/DataImage.h:
+	* src/Interfaz/BarraEstado.cpp:
+	* src/Interfaz/BarraEstado.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Modulos/CalculoEstadistico.cpp:
+	* src/Modulos/CalculoEstadistico.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/CalculoMorfologico.cpp:
+	* src/Modulos/CalculoMorfologico.h:
+	Repair bug at coreGovocitos and document the clases below.
+
+2011-05-31  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/BarraEstado.cpp:
+	* src/Modulos/CalculoEstadistico.cpp:
+	* src/Modulos/CalculoEstadistico.h:
+	Add coments and eliminated a method that was replied.
+	
+
+2011-05-31  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/BDClassEst.cpp:
+	* src/Conectividad/BDClassEst.h:
+	* src/Makefile.am:
+	Remove class.
+
+2011-05-30  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/BDClassEst.cpp:
+	* src/Conectividad/BDClassEst.h:
+	* src/Glade/AcercaDe.glade:
+	Comment code to compile the proyect and the dialog about of haven´t editable text.
+
+2011-05-30  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/BDClassEst.cpp:
+	* src/Conectividad/BDClassEst.h:
+	* src/Makefile.am:
+	Add new class to access directly to DB.
+
+2011-05-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Glade/AcercaDe.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Makefile.am:
+	* src/main.cpp:
+	Correct traslations.
+	Repair bugs.
+	When the user detect edges or clasify the cells the option undo will be enable.
+
+2011-05-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/XmlWebDatos.cpp:
+	* src/Conectividad/XmlWebDatos.h:
+	* src/Estructuras/ClasificaCelula.cpp:
+	* src/Estructuras/ClasificaCelula.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/MenuSeleccion.cpp:
+	Reapir bug, the name of the clases are repeat at all lines.
+
+2011-05-13  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Clasificador/Clasificador.cpp:
+	repair bug.
+
+2011-05-13  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/AcercaDe.glade:
+	* src/Glade/PanelResultados.glade:
+	* src/Glade/seleccionaClaseEstado.glade:
+	* src/Interfaz/MenuSeleccion.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	Repair bugs.
+
+2011-05-12  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDiametros.cpp:
+	Ajust pixel to micron.
+
+2011-05-12  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/DataImage.cpp:
+	* src/Estructuras/DataImage.h:
+	* src/Modulos/HttpsConexion.cpp:
+	Simplyfi code and repair bug, now the system delete the bmp files.
+
+2011-05-12  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	Correct traslation, and repair bug, the histogram now will be show only 1 time.
+
+2011-05-12  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Utiles.cpp:
+	* src/Utiles.h:
+	Repair bugs, and add the open imagen and cell remote system.
+
+2011-05-11  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/CoreGovocitos.cpp:
+	Finish traslation of govocitos and repair bug at the classify system.
+
+2011-05-11  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/Bordes/image.h:
+	* src/Clasificador/Clasificador.cpp:
+	* src/Clasificador/Clasificador.h:
+	* src/Clasificador/faneca/fich_med_desv_clases_glrls_a0.dat:
+	* src/Clasificador/faneca/fich_med_desv_estados_glrls_a0.dat:
+	* src/Clasificador/faneca/fich_svm_clasif_clases_glrls_a0.dat:
+	* src/Clasificador/faneca/fich_svm_clasif_estados_glrls_a0.dat:
+	* src/Clasificador/faneca/glrls_a0.txt:
+	* src/Clasificador/fich_med_desv_clases_haralick_dist1.dat:
+	* src/Clasificador/fich_med_desv_estados_haralick_dist1.dat:
+	* src/Clasificador/fich_svm_clasif_clases_haralick_dist1.dat:
+	* src/Clasificador/fich_svm_clasif_estados_haralick_dist1.dat:
+	* src/Clasificador/lusy/fich_med_desv_clases_glrls_a0.dat:
+	* src/Clasificador/lusy/fich_med_desv_estados_glrls_a0.dat:
+	* src/Clasificador/lusy/fich_svm_clasif_clases_glrls_a0.dat:
+	* src/Clasificador/lusy/fich_svm_clasif_estados_glrls_a0.dat:
+	* src/Clasificador/lusy/glrls_a0.txt:
+	* src/Clasificador/merluza/fich_med_desv_clases_glrls_a0.dat:
+	* src/Clasificador/merluza/fich_med_desv_estados_glrls_a0.dat:
+	* src/Clasificador/merluza/fich_svm_clasif_clases_glrls_a0.dat:
+	* src/Clasificador/merluza/fich_svm_clasif_estados_glrls_a0.dat:
+	* src/Clasificador/merluza/glrls_a0.txt:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Makefile.am:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	* src/Utiles.cpp:
+	Add new system to detect edges and clasify cells.
+
+2011-05-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/XmlWebImagenes.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/DataImage.cpp:
+	* src/Estructuras/DataImage.h:
+	Add specie to images.
+
+2011-05-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PlotHistogram.cpp:
+	Repair bug at repaint plot.
+
+2011-05-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/Preferencias.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	Repair bug when the user calculate the diameters, the panel fail and the aplication crash.
+	Update english translation.
+
+2011-05-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/XmlConectividad.cpp:
+	* src/Conectividad/XmlWebDatos.cpp:
+	* src/Conectividad/XmlWebFecundidad.cpp:
+	* src/Conectividad/XmlWebImagenes.cpp:
+	* src/Conectividad/XmlWebIndividuo.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/Fichero.cpp:
+	* src/Glade/AcercaDe.glade:
+	* src/Glade/CalculaDiametro.glade:
+	* src/Glade/DatosDiametros.glade:
+	* src/Glade/DatosEstadisticos.glade:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Glade/PanelResultados.glade:
+	* src/Glade/Preferencias.glade:
+	* src/Interfaz/BarraEstado.cpp:
+	* src/Interfaz/DialogoAGLocal.cpp:
+	* src/Interfaz/DialogoBarraProgres.cpp:
+	* src/Interfaz/DialogoIndividuo.cpp:
+	* src/Interfaz/DialogoRemoto.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/MenuPopup.cpp:
+	* src/Interfaz/MenuSeleccion.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PlotHistogram.cpp:
+	* src/Interfaz/Preferencias.cpp:
+	* src/Interfaz/RejillaPersonalizada.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/XmlParse.cpp:
+	* src/Utiles.cpp:
+	Translate the aplication to english and finish the module to calculate the 
+	fecundity for a image.
+
+2011-05-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Interfaz/PlotHistogram.cpp:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Utiles.cpp:
+	Change the round of the histogram 2 to 3 decimal number.
+
+2011-05-09  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Interfaz/PlotHistogram.cpp:
+	* src/Interfaz/PlotHistogram.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Utiles.cpp:
+	* src/Utiles.h:
+	Add histogram to the panel, need a revision but their aparence is good.
+
+2011-05-09  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/main.cpp:
+	Repair bugs, and optimized code.
+
+2011-05-06  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Estructuras/Celula.cpp:
+	* src/Estructuras/Celula.h:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Makefile.am:
+	* src/Modulos/CalculoEstadistico.cpp:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/HttpsConexion.cpp:
+	When the user selected a grid fullscren with separation 1, the system calculate
+	the area directly.
+
+2011-05-05  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PlotHistogram.cpp:
+	* src/Interfaz/PlotHistogram.h:
+	* src/Makefile.am:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoMorfologico.cpp:
+	* src/main.cpp:
+	Discart plotmm to make the histogram, repair bugs in K calculation, change 
+	the miniature images in a button to a Gtk::Image.
+
+2011-05-04  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoMorfologico.cpp:
+	* src/Modulos/Rejilla.cpp:
+	Repair bug at grid.
+
+2011-05-04  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Estructuras/Celula.cpp:
+	* src/Estructuras/Celula.h:
+	* src/Fichero.cpp:
+	* src/Interfaz/PlotHistogram.cpp:
+	* src/Interfaz/PlotHistogram.h:
+	* src/Makefile.am:
+	* src/Modulos/XmlParse.cpp:
+	* src/main.cpp:
+	Add histogram, and add label to the xml.
+
+2011-05-03  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	Works when open more than 1 individual.
+
+2011-05-03  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/CalculoFecundidad.cpp:
+	Recalculate the fencundity.
+
+2011-05-02  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/XmlWebFecundidad.cpp:
+	* src/Conectividad/XmlWebFecundidad.h:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Estructuras/ListadoIndividuo.cpp:
+	* src/Estructuras/ListadoIndividuo.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Makefile.am:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/HttpsConexion.cpp:
+	Remake the calculation of K and adds values.
+
+2011-04-29  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Modulos/CalculoEstadistico.cpp:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	Filter the cell under 125 of diameter and over of 750.
+
+2011-04-28  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Estructuras/ListadoIndividuo.cpp:
+	* src/Estructuras/ListadoIndividuo.h:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/PanelFecundidad.cpp:
+	Reapir bugs, to calculate the fecundity when the user change the grid.
+	Put the images 2 per row.
+
+2011-04-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/DialogoIndividuo.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Modulos/CalculoEstadistico.cpp:
+	* src/Modulos/CalculoEstadistico.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/Rejilla.cpp:
+	* src/Modulos/Rejilla.h:
+	* src/Modulos/ResultFecundidad.cpp:
+	* src/Modulos/ResultFecundidad.h:
+	Add fecunditi calculate to the panel, and repair bugs.
+
+2011-04-26  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Estructuras/ListaResultadosImg.cpp:
+	* src/Estructuras/ListaResultadosImg.h:
+	* src/Estructuras/ListadoIndividuo.cpp:
+	* src/Estructuras/ListadoIndividuo.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Makefile.am:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	* src/Modulos/ResultFecundidad.cpp:
+	* src/Modulos/ResultFecundidad.h:
+	Reconstruct the clases os obtain the final data.
+
+2011-04-25  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Makefile.am:
+	Add PlotHistogram to the project.
+
+2011-04-25  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PlotHistogram.cpp:
+	* src/Interfaz/PlotHistogram.h:
+	New class to paint the plot histogram.
+
+2011-04-25  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/ListaResultadosImg.cpp:
+	* src/Estructuras/ListaResultadosImg.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	Calculate K for the images, and show results.
+
+2011-04-20  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Config/ConfigGovocitos.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Estructuras/ImageCells.h:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/HttpsConexion.h:
+	* src/Utiles.cpp:
+	* src/Utiles.h:
+	Add reduced images to view in fecunditi panel.
+
+2011-04-19  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/ListaResultadosImg.cpp:
+	* src/Estructuras/ListaResultadosImg.h:
+	* src/Estructuras/ListadoCelulas.cpp:
+	* src/Estructuras/ResultadosImagen.cpp:
+	* src/Estructuras/ResultadosImagen.h:
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Makefile.am:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	Enable the system to show the stadistical data y the fecunditi panel.
+
+2011-04-18  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	Add a condition when the individual don´t have any xml the system don´t calculate the fecundity.
+
+2011-04-18  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/XmlWebIndividuo.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Estructuras/ListadoCelulas.cpp:
+	* src/Estructuras/ListadoIndividuo.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/HttpsConexion.h:
+	Add the dialog to selected a individual.
+
+2011-04-14  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Conectividad/XmlWebIndividuo.cpp:
+	* src/Conectividad/XmlWebIndividuo.h:
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/DataImage.cpp:
+	* src/Estructuras/DataImage.h:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Estructuras/ImageCells.h:
+	* src/Estructuras/ListadoIndividuo.cpp:
+	* src/Estructuras/ListadoIndividuo.h:
+	* src/Interfaz/DialogoIndividuo.cpp:
+	* src/Interfaz/DialogoIndividuo.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Makefile.am:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	Add three new class to obtain the individual and calculate the fecunditi.
+
+2011-04-11  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Makefile.am:
+	Add the menu to open a individual.
+
+2011-04-07  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/PanelResultados.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/PanelFecundidad.cpp:
+	* src/Interfaz/PanelFecundidad.h:
+	* src/Makefile.am:
+	* src/Modulos/CalculoFecundidad.cpp:
+	* src/Modulos/CalculoFecundidad.h:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	Add 2 new class, one to control the new panel of final results and the other
+	to calculate all the data.
+	Add a notebook to have the two panels y the same place.
+
+2011-04-07  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Makefile.am:
+	Make librari for 32bit.
+
+2011-04-06  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	Now the user can chosse the method v1 or v2 to detect the border of the cells.
+
+2011-04-06  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	Repair bug, when a new image is charge the system recreate the object a replicate it, for this
+	reason the object of class SistemaDibujado haven´t the correct reference of the first object.
+
+2011-04-06  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Modulos/SistemaDibujado.cpp:
+	Repair bugs, and optimized code.
+
+2011-04-04  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/Glade/PanelResultados.glade:
+	* src/Makefile.am:
+	Add new panel but don´t avaliable and disable new automatic detection a put the last.
+
+2011-04-01  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/CoreGovocitos.cpp:
+	* src/Dialogos.cpp:
+	Add a progress bar dialog, and optimized the execution time.
+
+2011-04-01  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/AcercaDe.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	Actualized version, and repair bug when the user display the personalized grid and change
+	to the editor system now they have default values in grid panel.
+
+2011-03-31  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelPropiedades.cpp:
+	Repair bug, when the user open the preferences the first time the grid will not precalculated.
+
+2011-03-31  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Modulos/CalculoEstadistico.cpp:
+	* src/Modulos/CalculoEstadistico.h:
+	* src/Modulos/Rejilla.cpp:
+	* src/Modulos/Rejilla.h:
+	Repair bugs, optimized the stadistical system to calculate all the data.
+
+2011-03-30  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Makefile.am:
+	* src/Modulos/CalculoEstadistico.cpp:
+	* src/Modulos/CalculoEstadistico.h:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	* src/Modulos/Rejilla.cpp:
+	* src/Modulos/Rejilla.h:
+	Repair bug at count point grid system, and create a new class to realized the stadistical calculate data.
+
+2011-03-29  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/Config/ConfigGovocitos.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/Dialogos.cpp:
+	* src/Dialogos.h:
+	* src/Estructuras/ClasificaCelula.cpp:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Estructuras/ListadoCache.cpp:
+	* src/Fichero.cpp:
+	* src/Fichero.h:
+	* src/Interfaz/BarraEstado.cpp:
+	* src/Interfaz/DialogoAGLocal.cpp:
+	* src/Interfaz/DialogoBarraProgres.cpp:
+	* src/Interfaz/DialogoRemoto.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuSeleccion.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/Preferencias.cpp:
+	* src/Interfaz/Preferencias.h:
+	* src/Interfaz/RejillaPersonalizada.cpp:
+	* src/Makefile.am:
+	* src/Modulos/CalculoDiametros.cpp:
+	* src/Modulos/CalculoDiametros.h:
+	* src/Modulos/CalculoMorfologico.cpp:
+	* src/Modulos/CalculoMorfologico.h:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/XmlParse.cpp:
+	* src/Utiles.cpp:
+	* src/Utiles.h:
+	Now Utiles, Dialogos, Ficheros, CalculoMorfologico are class with static methods.
+
+2011-03-28  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Modulos/SistemaDibujado.cpp:
+	Repair bug, when open a new image the system don´t crash.
+
+2011-03-25  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Glade/DatosEstadisticos.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/SistemaDibujado.cpp:
+	* src/Modulos/SistemaDibujado.h:
+	Repair bugs and add the stadistical data panel.
+
+2011-03-23  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Utiles.cpp:
+	Repair bugs.
+
+2011-03-23  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Glade/CalculaDiametro.glade:
+	* src/Glade/DatosDiametros.glade:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	* src/Utiles.cpp:
+	* src/Utiles.h:
+	Add new system to calculate de center of a cell, the perimeter and the roundness.
+
+2011-03-22  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	* src/Modulos/Rejilla.cpp:
+	Repair bugs.
+
+2011-03-21  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	Repair bug, when the user open a new image the grid should be disable.
+
+2011-03-21  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Glade/DatosDiametros.glade:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Makefile.am:
+	* src/Modulos/Rejilla.cpp:
+	New panel for stadistical data, and repair bugs.
+
+2011-03-18  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Interfaz/Preferencias.cpp:
+	Repair bugs.
+
+2011-03-17  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/CalculaDiametro.glade:
+	* src/Glade/DatosDiametros.glade:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Modulos/CalculoDiametros.cpp:
+	* src/Modulos/CalculoDiametros.h:
+	display area to the panel of calculate diameters.
+
+2011-03-17  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Glade/Preferencias.glade:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/Preferencias.cpp:
+	* src/Interfaz/Preferencias.h:
+	* src/Modulos/SistemaDibujado.cpp:
+	* src/Modulos/SistemaDibujado.h:
+	Repair bugs, and change the system to create a new grid.
+
+2011-03-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/Rejilla.cpp:
+	Repair bugs in grid, and y the detection system cell point.
+
+2011-03-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Glade/Preferencias.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	* src/Modulos/Rejilla.cpp:
+	* src/Modulos/Rejilla.h:
+	* src/Modulos/SistemaDibujado.cpp:
+	Repair bugs, new system to show the grid and calculate it, new system to analizing the border cell.
+
+2011-03-14  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	* src/Makefile.am:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	* src/Modulos/Rejilla.cpp:
+	* src/Modulos/Rejilla.h:
+	* src/Modulos/SistemaDibujado.cpp:
+	* src/Modulos/SistemaDibujado.h:
+	Change grid system, don´t finish and don´t work´s.
+
+2011-03-12  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/PanelPropiedades.glade:
+	* src/Makefile.am:
+	* src/Modulos/DibujadoCelula.h:
+	Repair bugs.
+
+2011-03-11  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Modulos/HttpsConexion.cpp:
+	Repair bugs.
+
+2011-03-11  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Glade/DialogoAbrirRemoto.glade:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Interfaz/DialogoRemoto.cpp:
+	* src/Interfaz/DialogoRemoto.h:
+	* src/Interfaz/RejillaPersonalizada.cpp:
+	Repair bugs and optimized code.
+
+2011-03-09  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/image.h:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Glade/DialogoAbrirRemoto.glade:
+	* src/Interfaz/DialogoAGLocal.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Modulos/SistemaDibujado.cpp:
+	* src/Modulos/SistemaDibujado.h:
+	Repair bugs, optimized code.
+
+2011-03-01  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Glade/ConfiguraRejilla.glade:
+	* src/Interfaz/RejillaPersonalizada.cpp:
+	* src/Interfaz/RejillaPersonalizada.h:
+	* src/Makefile.am:
+	Selec the firts candidate at autodetection.
+	Change the panel to selec a personalized grid.
+
+2011-02-28  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DatosDiametros.glade:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Makefile.am:
+	Add data to calculate system diametres, and put a grid in the treeView.
+
+2011-02-25  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/CalculaDiametro.glade:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	Make treeview reordered. elminate 2 calculate diameters methods.
+
+2011-02-24  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Config/ConfigGovocitos.cpp:
+	* src/Config/OpcionesRej.cpp:
+	* src/Config/OpcionesRej.h:
+	* src/Glade/ConfiguraRejilla.glade:
+	* src/Glade/Preferencias.glade:
+	* src/Interfaz/Preferencias.cpp:
+	* src/Interfaz/Preferencias.h:
+	* src/Interfaz/RejillaPersonalizada.cpp:
+	* src/Interfaz/RejillaPersonalizada.h:
+	Change personalized grid atributes, simplyfi the creation of a new personalized grid
+	and change the glade to select a personalized grid.
+
+2011-02-23  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Bordes/DeteccionAut.cpp:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	Activate the autodetection.
+
+2011-02-23  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/RejillaPersonalizada.cpp:
+	* src/Interfaz/RejillaPersonalizada.h:
+	Optimized personalizated grid.
+
+2011-02-22  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/ConfiguraRejilla.glade:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Makefile.am:
+	Add the glade file of the personalized grid.
+
+2011-02-22  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	* src/Interfaz/RejillaPersonalizada.cpp:
+	* src/Interfaz/RejillaPersonalizada.h:
+	* src/Makefile.am:
+	* src/Modulos/Rejilla.cpp:
+	Add the personalizated grid to the system, need a revision.
+
+2011-02-22  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/main.cpp:
+	Repair bug, work ever in the same locale region.
+
+2011-02-22  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	Repair bug, if the grid is active and the user change his values on preferences the
+	grid is show correctly in windows.
+
+2011-02-22  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	Repair bug, if the grid is activa and the user change his values on preferences the
+	grid is show correctly.
+
+2011-02-22  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	Repair bug. If a cell was selected and the user apply changes in preferences
+	the cell delete the class.
+
+2011-02-22  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	Enable the automatic clasification of cells.
+
+2011-02-21  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	If the program can not connect with the server, the system disable the option
+	to open images from the database.
+
+2011-02-21  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	Repair bug, if the network connection fail during the execute of govocitos the system
+	now display the error and do not fail.
+
+2011-02-21  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/InterfazGovocitos.cpp:
+	Repair bug, when the user save a image with the option save the system fail, now is repair.
+
+2011-02-21  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/DibujadoCelula.cpp:
+	Repair bug, if the user open a new image and paint a cell with the option, paintç
+	using points the program fail.
+
+2011-02-17  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Modulos/Rejilla.cpp:
+	* src/Modulos/SistemaDibujado.cpp:
+	Repair bug, the grid is not scale correctly with the zoom.
+
+2011-02-17  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDiametros.cpp:
+	At diameters repair bug -> change clases || estados to clases && estados at the find condition.
+	At stadistical data show correct the outup data.
+
+2011-02-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	* src/Modulos/SistemaDibujado.cpp:
+	Disable autodetection functions, and repair bug, when the user applies the preferences
+	the first time the system crash.
+	
+2011-02-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDibujado.cpp:
+	Set the value of micras, it´s 1 PROVISIONAL.
+
+2011-02-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/Rejilla.cpp:
+	Point count system bug fixed, now they count correctly.
+
+2011-02-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Modulos/SistemaDibujado.cpp:
+	Repair bugs, the system crash when close the image and opened preferences, this bug is fixed.
+
+2011-02-07  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	eliminate replication of the same cell.
+
+2011-02-07  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	Add method to detec if the user make changes at the cell file.
+	Repair bugs.
+
+2010-12-13  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Clasificador/Clasificador.cpp:
+	* src/Clasificador/Clasificador.h:
+	* src/Clasificador/fich_med_desv_clases_haralick_dist1.dat:
+	* src/Clasificador/fich_svm_clasif_clases_haralick_dist1.dat:
+	* src/CoreGovocitos.cpp:
+	* src/Makefile.am:
+	* src/Modulos/ModulosGovocitos.cpp:
+	Add clasification system of the cell. clases
+
+2010-12-09  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	Repair bugs.
+
+2010-12-09  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/CoreGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Modulos/DibujadoCelula.cpp:
+	Repair bugs at grid system.
+
+2010-12-03  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* Makefile:
+	* Makefile.am:
+	* src/Bordes/DeteccionAut.cpp:
+	* src/Bordes/DeteccionAut.h:
+	* src/Bordes/image.h:
+	* src/Conectividad/XmlConectividad.cpp:
+	* src/Conectividad/XmlConectividad.h:
+	* src/Conectividad/XmlWebDatos.cpp:
+	* src/Conectividad/XmlWebDatos.h:
+	* src/Conectividad/XmlWebImagenes.cpp:
+	* src/Conectividad/XmlWebImagenes.h:
+	* src/Config/ConfigGovocitos.cpp:
+	* src/Config/ConfigGovocitos.h:
+	* src/Config/OpcionesPref.cpp:
+	* src/Config/OpcionesPref.h:
+	* src/Config/OpcionesRej.cpp:
+	* src/Config/OpcionesRej.h:
+	* src/CoreGovocitos.cpp:
+	* src/CoreGovocitos.h:
+	* src/Estructuras/Celula.cpp:
+	* src/Estructuras/Celula.h:
+	* src/Estructuras/ClaseCelula.cpp:
+	* src/Estructuras/ClaseCelula.h:
+	* src/Estructuras/ClasificaCelula.cpp:
+	* src/Estructuras/ClasificaCelula.h:
+	* src/Estructuras/DataImage.cpp:
+	* src/Estructuras/DataImage.h:
+	* src/Estructuras/EstadoCelula.cpp:
+	* src/Estructuras/EstadoCelula.h:
+	* src/Estructuras/ImageCells.cpp:
+	* src/Estructuras/ImageCells.h:
+	* src/Estructuras/ListadoCache.cpp:
+	* src/Estructuras/ListadoCache.h:
+	* src/Estructuras/ListadoCelulas.cpp:
+	* src/Estructuras/ListadoCelulas.h:
+	* src/Estructuras/ListadoImagenes.cpp:
+	* src/Estructuras/ListadoImagenes.h:
+	* src/Estructuras/NucleoCelula.cpp:
+	* src/Estructuras/NucleoCelula.h:
+	* src/Fichero.cpp:
+	* src/Fichero.h:
+	* src/Glade/AcercaDe.glade:
+	* src/Glade/CalculaDiametro.glade:
+	* src/Glade/DialogoAbrirRemoto.glade:
+	* src/Glade/PanelPropiedades.glade:
+	* src/Glade/Preferencias.glade:
+	* src/Glade/panelCerradoDatos.glade:
+	* src/Glade/seleccionaClaseEstado.glade:
+	* src/Interfaz/BarraEstado.cpp:
+	* src/Interfaz/BarraEstado.h:
+	* src/Interfaz/DialogoAGLocal.cpp:
+	* src/Interfaz/DialogoAGLocal.h:
+	* src/Interfaz/DialogoBarraProgres.cpp:
+	* src/Interfaz/DialogoBarraProgres.h:
+	* src/Interfaz/DialogoRemoto.cpp:
+	* src/Interfaz/DialogoRemoto.h:
+	* src/Interfaz/InterfazGovocitos.cpp:
+	* src/Interfaz/InterfazGovocitos.h:
+	* src/Interfaz/MenuBarraPrincipal.cpp:
+	* src/Interfaz/MenuBarraPrincipal.h:
+	* src/Interfaz/MenuPopup.cpp:
+	* src/Interfaz/MenuPopup.h:
+	* src/Interfaz/MenuSeleccion.cpp:
+	* src/Interfaz/MenuSeleccion.h:
+	* src/Interfaz/PanelDatosEstadisticos.cpp:
+	* src/Interfaz/PanelDatosEstadisticos.h:
+	* src/Interfaz/PanelDiametros.cpp:
+	* src/Interfaz/PanelDiametros.h:
+	* src/Interfaz/PanelDibujado.cpp:
+	* src/Interfaz/PanelDibujado.h:
+	* src/Interfaz/PanelPropiedades.cpp:
+	* src/Interfaz/PanelPropiedades.h:
+	* src/Interfaz/Preferencias.cpp:
+	* src/Interfaz/Preferencias.h:
+	* src/Makefile:
+	* src/Makefile.am:
+	* src/Modulos/CalculoDiametros.cpp:
+	* src/Modulos/CalculoDiametros.h:
+	* src/Modulos/DesReHacer.cpp:
+	* src/Modulos/DesReHacer.h:
+	* src/Modulos/DibujadoCelula.cpp:
+	* src/Modulos/DibujadoCelula.h:
+	* src/Modulos/HttpsConexion.cpp:
+	* src/Modulos/HttpsConexion.h:
+	* src/Modulos/ModulosGovocitos.cpp:
+	* src/Modulos/ModulosGovocitos.h:
+	* src/Modulos/Rejilla.cpp:
+	* src/Modulos/Rejilla.h:
+	* src/Modulos/ScanFillLine.cpp:
+	* src/Modulos/ScanFillLine.h:
+	* src/Modulos/SistemaDibujado.cpp:
+	* src/Modulos/SistemaDibujado.h:
+	* src/Modulos/XmlParse.cpp:
+	* src/Modulos/XmlParse.h:
+	* src/Utiles.cpp:
+	* src/Utiles.h:
+	* src/main.cpp:
+	Initial Commit.
+	Preversion Govocitos 1.0 ---> Govocitos 2.0 Alpha.
+
+
